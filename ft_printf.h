@@ -6,13 +6,14 @@
 /*   By: hmaruyam <hmaruyam@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 01:46:28 by hmaruyam          #+#    #+#             */
-/*   Updated: 2025/05/10 22:51:15 by hmaruyam         ###   ########.fr       */
+/*   Updated: 2025/05/11 12:46:32 by hmaruyam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
+# include <limits.h>
 # include <stdarg.h>
 # include <stdint.h>
 # include <stdlib.h>
