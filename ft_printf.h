@@ -6,7 +6,7 @@
 /*   By: hmaruyam <hmaruyam@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/29 01:46:28 by hmaruyam          #+#    #+#             */
-/*   Updated: 2025/05/01 19:26:54 by hmaruyam         ###   ########.fr       */
+/*   Updated: 2025/05/10 22:51:15 by hmaruyam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
+# include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
 

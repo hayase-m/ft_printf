@@ -27,6 +27,7 @@ $(NAME): $(LIBFT_A) $(OBJS)
 
 $(LIBFT_A):
 			$(MAKE) -C $(LIBFT_DIR)
+			cp $(LIBFT_A) $(NAME)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
