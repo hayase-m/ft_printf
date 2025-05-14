@@ -6,8 +6,8 @@ SRCS = ft_printf.c \
        handle_hex_pointer.c \
 			 handle_integer.c \
 			 handle_char_string.c \
-       ft_itoa.c\
-       ft_strlen.c\
+      #  ft_itoa.c\
+      #  ft_strlen.c\
 
 
 OBJS = $(SRCS:.c=.o)
